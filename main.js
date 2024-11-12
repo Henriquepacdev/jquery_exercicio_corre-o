@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('#carousel-imagens').slick({
         autoplay: true
     })
-})
+
 
 $('#telefone').mask('(00) 00000-0000', {
     placeholder: '(DDD) 12345-6789'
@@ -45,4 +45,5 @@ $('form').validate({
     invalidHandler: function (form, validator) {
         alert("Por favor, preencha os campos para prosseguir com a compra!");
     }
+})
 })
